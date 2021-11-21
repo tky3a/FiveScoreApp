@@ -22,7 +22,10 @@ class MainActivity : AppCompatActivity() {
             num
             if (num == 5) {
                 val intent = Intent(this, GameClear::class.java)
+                // 画面遷移
                 startActivity(intent)
+                // 画面遷移した画面から戻ってきた場合に初期化したいので、finish()する
+                finish()
             } else {
                 tvScore.text = num.toString() /* 文字列結合 */
             }
@@ -33,7 +36,10 @@ class MainActivity : AppCompatActivity() {
             num--
             if (num == -5) {
                 val intent = Intent(this, GameOver::class.java)
+                // 画面遷移
                 startActivity(intent)
+                // 画面遷移した画面から戻ってきた場合に初期化したいので、finish()する
+                finish()
             } else {
                 tvScore.text = num.toString()
             }

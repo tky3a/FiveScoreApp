@@ -6,4 +6,5 @@
     <string name="minus">−</string>
     <string name="plus">+</string>
     <string name="initialScore">0</string>
+    <string name="replay">REPLAY</string>
 </resources>

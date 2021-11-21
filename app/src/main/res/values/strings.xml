@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FiveScoreApp</string>
+    <string name="game_clear">GameClear</string>
+    <string name="game_over">GameOver</string>
+    <string name="gameTitle">5 Score Game</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="initialScore">0</string>
+</resources>
